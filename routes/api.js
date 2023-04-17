@@ -39,7 +39,7 @@ router.get('/:id',(req,res)=>{
         var data={}
         data.name=token.name;
         data.description=token.description;
-        data.image="https://127.0.0.1:3000/api/img/"+id;
+        data.image="http://13.235.104.218:3000/api/img/"+id;
 
         res.send(data);
     })
